@@ -46,7 +46,9 @@ const HeroContainer = styled.div`
 `;
 
 const ImageContainer = styled.div`
-  width: 150%;
+  @media only screen and (min-width: 64rem) {
+    width: 150%;
+  }
 `;
 
 const Mockup = styled.img`
@@ -94,6 +96,6 @@ const RequestInvite = styled.button`
   cursor: pointer;
 
   &:hover {
-      background: linear-gradient(135deg, #a8e0b7 0%, #91d2e2 99.58%);
-    }
+    background: linear-gradient(135deg, #a8e0b7 0%, #91d2e2 99.58%);
+  }
 `;
