@@ -40,6 +40,7 @@ const ArticesContent = styled.div`
   gap: 2.4rem;
   margin-top: 3.2rem;
   text-align: left;
+  justify-content: space-between;
 
   @media only screen and (min-width: 64rem) {
     flex-direction: row;
@@ -51,6 +52,7 @@ const Article = styled.div`
   width: 100%;
   border-radius: 5px;
   background-color: #ffffff;
+  max-width: 28rem;
   cursor: pointer;
   transition: color 0.3s ease-out;
   &:hover h4 {
